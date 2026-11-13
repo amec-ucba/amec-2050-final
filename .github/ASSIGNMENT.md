@@ -295,7 +295,7 @@ Your rough draft should have:
 - Every link working and every page loading on the live site
 
 > 💡 **Tip:**
-> Preview your site in a browser, not just in VS Code, and check it on your phone. Commit
+> Preview your site in a browser, not just in WebStorm's built-in preview, and check it on your phone. Commit
 > and push often instead of all at the end.
 
 #### 🚫 Common Issues to Avoid

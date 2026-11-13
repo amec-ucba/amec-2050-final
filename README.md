@@ -26,7 +26,7 @@ your `develop` branch, and your live GitHub Pages site.
 **Every milestone:**
 
 1. Open the milestone in [ASSIGNMENT.md](.github/ASSIGNMENT.md) and do the work on `develop`.
-2. Commit and push in GitHub Desktop, often. Check your live site.
+2. Commit and push in WebStorm, often. Check your live site.
 3. Open a pull request from `develop` into `main`, titled with the milestone's name, and fill
    in its template.
 4. Paste the pull request URL into the milestone's assignment in Canvas.
@@ -69,6 +69,9 @@ then. You stay on `develop` the whole time.
 
 You only do this once, at the start of the project.
 
+> [!TIP]
+> **New to WebStorm?** Do the [one-time WebStorm setup](.github/WEBSTORM_SETUP.md) first.
+
 1. **Create your own repo from this template.**
    - At the top of this repo on GitHub, click the green **Use this template** button. (If a
      menu opens, choose **Create a new repository**.)
@@ -83,29 +86,28 @@ You only do this once, at the start of the project.
 
      <img src=".github/images/create-repo-visibility.png" alt="The Choose visibility dropdown set to Public" width="600">
    - Click **Create repository**. GitHub takes you to your new repo.
-2. **Open your new repo in GitHub Desktop.**
-   - Check that the repo name at the top of the page is `<your-username>/<repo-name>`, not
+2. **Clone your new repo in WebStorm.**
+   - On the WebStorm welcome screen, click **Clone Repository**. (If a project is already
+     open, use **File** → **New** → **Project from Version Control…**)
+   - Click **GitHub** on the left. Pick `<your-username>/<repo-name>` from the list, not
      this template.
-   - Click the green **Code** button → **Open with GitHub Desktop**.
-   - GitHub Desktop opens and asks where to save the repo. Pick a folder on your computer
-     and click **Clone**.
+   - Check the **Directory** it will save to, then click **Clone**.
 
-   <img src=".github/images/code-open-with-github-desktop.png" alt="The Code menu with Open with GitHub Desktop near the bottom" width="600">
+     <img src=".github/images/webstorm-clone-github.png" alt="The Clone Repository dialog on the GitHub tab with a repo selected, and the Clone into directory and Clone button highlighted" width="600">
+   - If WebStorm asks whether to trust the project, click **Trust Project**.
+3. **Create your `develop` branch.** Click the branch name (`main`) at the top left of the
+   window, then **New Branch…** Name it `develop`, leave **Checkout branch** checked, and
+   click **Create**. Then press <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd> and click
+   **Push** to create `develop` on GitHub.
 
-   <img src=".github/images/github-desktop-clone.png" alt="GitHub Desktop's Clone a Repository dialog with the repo URL and Local Path filled in, and the Clone button highlighted" width="600">
-3. **Create your `develop` branch.** In GitHub Desktop, click **Current Branch** →
-   **New Branch**, name it `develop`, and click **Create Branch**. Then click
-   **Publish branch** at the top.
-
-   <img src=".github/images/github-desktop-publish-branch.png" alt="GitHub Desktop toolbar with the Publish branch button highlighted" width="600">
+   <img src=".github/images/webstorm-new-branch-menu.png" alt="The branch widget menu open from main, with the branch widget and New Branch highlighted" width="500">
 4. **Turn on GitHub Pages** for `develop` using the steps in
    [Publishing to GitHub Pages](#-publishing-to-github-pages) below.
 5. **Add your live site to the repo's About section.**
    - On your repo's main page on GitHub, click the ⚙️ gear next to **About** (top right).
    - Check **Use your GitHub Pages website**, then click **Save changes**.
    - Your live site link now shows at the top of your repo, so anyone can find it.
-6. Click **Open in Visual Studio Code** in GitHub Desktop and start on your proposal in
-   `planning/PROPOSAL.md`.
+6. Open `planning/PROPOSAL.md` in WebStorm and start on your proposal.
 
 ## 🤖 AI Policy
 
@@ -127,14 +129,21 @@ substitute for it — following the policy is still your responsibility.
 
 Commit and push often, not just when a milestone is due.
 
-1. **Commit your work in GitHub Desktop.**
-   - Make sure **Current Branch** says `develop`.
-   - Enter a summary in the bottom-left box, like `Add about page`, and click
-     **Commit to develop**.
+1. **Commit your work in WebStorm.**
+   - Make sure the branch name at the top left says `develop`.
+   - Press <kbd>Cmd</kbd> + <kbd>K</kbd> to open the **Commit** panel and check the files you
+     want to include.
+   - Type a short message, like `Add about page`, and click **Commit**.
 
-   <img src=".github/images/github-desktop-commit.png" alt="GitHub Desktop's Changes tab with the Current Branch dropdown showing develop, a commit summary entered, and the Commit to develop button highlighted" width="600">
-2. **Push your work to GitHub.** Click **Push origin** at the top after every commit. If you
-   only commit, your work stays on your computer and your live site won't update.
+   <img src=".github/images/webstorm-commit.png" alt="The Commit tool window with files checked, a commit message entered, and the Commit button highlighted; the branch widget shows develop" width="600">
+
+   The first time, WebStorm asks for your name and email, and it may stop to show problems
+   it found in your code. [Publishing to GitHub Pages](.github/PUBLISHING.md) shows both.
+2. **Push your work to GitHub.** Press <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd> and
+   click **Push** after every commit (or click **Commit and Push** to do both). If you only
+   commit, your work stays on your computer and your live site won't update.
+
+   <img src=".github/images/webstorm-push.png" alt="The Push dialog showing develop → origin : develop with the Push button highlighted" width="600">
 
 ## 🚀 Publishing to GitHub Pages
 
@@ -174,27 +183,30 @@ You set this up once in FP1. After that, every push to `develop` updates your li
 Do this every time a milestone is ready: push your work, open a pull request from `develop`
 into `main`, and submit that pull request's URL in Canvas.
 
-1. **Commit and push everything on `develop`.** In GitHub Desktop, **Current Branch** should
-   say `develop`, and there should be nothing left to commit or push.
+1. **Commit and push everything on `develop`.** The branch name at the top left should say
+   `develop`, and there should be nothing left to commit or push.
 2. **Open a pull request into `main`.**
-   - Click **Preview Pull Request**, then **Create pull request**. (You can also use
-     **Branch** → **Create Pull Request**.) The pull request form opens in your browser.
+   - In WebStorm, open the **Git** menu → **GitHub** → **Create Pull Request…** The
+     **Pull Requests** panel opens with a new pull request form.
 
-     <img src=".github/images/github-desktop-preview-pr.png" alt="GitHub Desktop with the Preview Pull Request button highlighted" width="600">
-   - Confirm **base** is `main` and **compare** is `develop`. Title it with the milestone
-     name, like `FP2: Wireframes`.
+     <img src=".github/images/webstorm-create-pr-menu.png" alt="The Git menu with the GitHub submenu open and Create Pull Request highlighted" width="450">
+   - At the top of the form, confirm it says `main` ← `develop`. If not, click each branch
+     name to change it. Title it with the milestone name, like `FP2: Wireframes`.
 
-     <img src=".github/images/pr-base-compare-title.png" alt="The Open a pull request form with base main, compare develop, and the title highlighted" width="600">
+     <img src=".github/images/webstorm-pr-branches-title.png" alt="The new pull request form with main ← develop and the title field highlighted" width="400">
    - The description is pre-filled with a template. Fill in every section: check the
      milestone you're submitting under **Milestone**, paste your live
      GitHub Pages URL under **Live GitHub Pages URL**, write a short **Summary** of what this
      milestone added, check off the **Checklist** by changing each `[ ]` to `[x]`, and
      answer the **Reflection**. **Notes for your instructor** is optional. Leave the
      `<!-- -->` hint lines as they are; they're hidden once the pull request is created.
+     If the description is empty, open `.github/pull_request_template.md` in WebStorm, copy
+     everything in it, and paste it into the description.
+   - Click **Create Pull Request**. Don't use the dropdown's **Create Draft Pull Request**.
 
-     <img src=".github/images/pr-description.png" alt="The pull request description template filled in, with the GitHub Pages URL highlighted" width="600">
-   - Click **Create pull request**. It should say **Open**. Don't merge it. Your instructor
-     merges it after grading.
+     <img src=".github/images/webstorm-pr-create-button.png" alt="The Create Pull Request button highlighted" width="400">
+   - Click **Open on GitHub** at the top of the new pull request to see it in your browser.
+     It should say **Open**. Don't merge it. Your instructor merges it after grading.
 
      <img src=".github/images/pr-opened.png" alt="An open pull request, with the Open status highlighted" width="600">
 3. **Submit the pull request URL in Canvas.**
