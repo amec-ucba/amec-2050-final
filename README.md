@@ -5,13 +5,13 @@ project, from your proposal and wireframes to the finished website. Each milesto
 submitted as its own pull request, so by the end your repo shows how your site came together.
 
 > [!NOTE]
-> `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` folder are
-> setup files that keep assignments consistent. Leave them alone.
+> `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` and `.idea`
+> folders are setup files that keep assignments consistent. Leave them alone.
 
 ## 📋 Assignment Requirements
 
 > [!IMPORTANT]
-> **Start here: [read ASSIGNMENT.md →](ASSIGNMENT.md)**
+> **Start here: [read ASSIGNMENT.md →](.github/ASSIGNMENT.md)**
 
 It has the project requirements and a collapsible section for each milestone with its
 instructions, checklist, and grading. Open the milestone you're working on and check it
@@ -25,7 +25,7 @@ your `develop` branch, and your live GitHub Pages site.
 
 **Every milestone:**
 
-1. Open the milestone in [ASSIGNMENT.md](ASSIGNMENT.md) and do the work on `develop`.
+1. Open the milestone in [ASSIGNMENT.md](.github/ASSIGNMENT.md) and do the work on `develop`.
 2. Commit and push in GitHub Desktop, often. Check your live site.
 3. Open a pull request from `develop` into `main`, titled with the milestone's name, and fill
    in its template.
@@ -118,6 +118,10 @@ You should be able to explain any line of your submission. You may be asked to d
 This repo includes a `.noai` file, which disables JetBrains AI Assistant for the project
 in IDEs like WebStorm. Leave it in place. It is a reminder of the policy above, not a
 substitute for it — following the policy is still your responsibility.
+
+> [!NOTE]
+> The `.noai` file does **not** turn off WebStorm's local Full Line code completion. Turn that
+> off yourself as part of the [one-time setup](.github/WEBSTORM_SETUP.md) (step 5).
 
 ## 💾 Saving Your Work
 

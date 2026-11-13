@@ -39,7 +39,7 @@ Your finished site must:
 | `css/style.css` | Your one shared stylesheet for every page |
 | `images/` | Every image your site uses, resized for the web |
 | `planning/PROPOSAL.md` | Your proposal (FP1) |
-| [`planning/wireframes/`](planning/wireframes/) | Your wireframes (FP2), the blank wireframe template, and examples |
+| [`planning/wireframes/`](../planning/wireframes/) | Your wireframes (FP2), the blank wireframe template, and examples |
 | `planning/CONTENT.md` | Your page titles, written content, and image list (FP3) |
 
 ## 🗓️ Milestones
@@ -47,7 +47,7 @@ Your finished site must:
 Every milestone is submitted the same way: commit and push to `develop`, open a pull
 request from `develop` into `main` titled with the milestone's name, and submit the pull
 request URL in Canvas. Your instructor merges it after grading. The steps are in the
-[README](README.md#-submitting-a-milestone).
+[README](../README.md#-submitting-a-milestone).
 
 | # | Milestone | Points |
 | --- | --- | --- |
@@ -73,7 +73,7 @@ answers, the smoother the rest of the project will go.
 #### What to Do
 
 1. **Read pages 455–460 of your textbook** before you write your proposal.
-2. **Set up your repo** by following [Getting Started](README.md#-getting-started-fp1) in
+2. **Set up your repo** by following [Getting Started](../README.md#-getting-started-fp1) in
    the README. This includes creating your repo from the template, creating `develop`,
    turning on GitHub Pages, and adding your live site to the repo's **About** section.
 3. **Fill in `planning/PROPOSAL.md`.** Answer each prompt under its heading:
@@ -128,7 +128,7 @@ later guessing about layout while you're coding.
 
 #### What to Do
 
-1. Use the [wireframe template](planning/wireframes/wireframe-template.pdf). The [wireframes folder](planning/wireframes/) has download and drawing tips, plus the examples below.
+1. Use the [wireframe template](../planning/wireframes/wireframe-template.pdf). The [wireframes folder](../planning/wireframes/) has download and drawing tips, plus the examples below.
 2. Draw a **desktop** and a **phone** wireframe for your pages. Each wireframe should:
    - Clearly show the box structure: header, navigation, main content, footer, and any
      sections or `div`s
@@ -156,7 +156,7 @@ right.
 These hand-drawn wireframes show clear box structure, squiggly lines for text, boxed
 images, labeled sections, and a visible navigation bar.
 
-<img src=".github/images/wireframe-examples.png" alt="Four hand-drawn website wireframes on paper and graph paper, each showing a header with a logo, a navigation bar, image boxes, squiggly lines for text, and labeled content sections" width="600">
+<img src="images/wireframe-examples.png" alt="Four hand-drawn website wireframes on paper and graph paper, each showing a header with a logo, a navigation bar, image boxes, squiggly lines for text, and labeled content sections" width="600">
 
 #### ✅ Before You Submit
 
@@ -403,7 +403,7 @@ one broken link or a few images missing `alt` text.
 ## 📚 Resources
 
 - Textbook pages 455–460 (read before FP1)
-- [Wireframe template](planning/wireframes/wireframe-template.pdf) and [examples](planning/wireframes/README.md)
+- [Wireframe template](../planning/wireframes/wireframe-template.pdf) and [examples](../planning/wireframes/README.md)
 - The PDF handout packet: page layout templates and navigation bar recipes for the three
   most common layouts
 - [Adobe Scan](https://www.adobe.com/acrobat/mobile/scanner-app.html) for turning
@@ -415,4 +415,4 @@ one broken link or a few images missing `alt` text.
 
 ---
 
-Setup steps, the AI policy, and how to submit each milestone are in the [README](README.md).
+Setup steps, the AI policy, and how to submit each milestone are in the [README](../README.md).
