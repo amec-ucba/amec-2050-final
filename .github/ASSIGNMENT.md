@@ -38,8 +38,10 @@ Your finished site must:
 | `css/reset.css` | A copy of the reset stylesheet (don't edit it) |
 | `css/style.css` | Your one shared stylesheet for every page |
 | `images/` | Every image your site uses, resized for the web |
-| `planning/PROPOSAL.md` | Your proposal (FP1) |
-| [`planning/wireframes/`](../planning/wireframes/) | Your wireframes (FP2), the blank wireframe template, and examples |
+| [`planning/README.md`](../planning/README.md) | Your proposal (FP1) |
+| [`planning/WIREFRAMES.md`](../planning/WIREFRAMES.md) | Wireframe tips and examples (FP2) |
+| [`planning/wireframe-template.pdf`](../planning/wireframe-template.pdf) | The blank wireframe template (FP2) |
+| `planning/wireframes.pdf` | Your wireframes (FP2) |
 | `planning/CONTENT.md` | Your page titles, written content, and image list (FP3) |
 
 ## 🗓️ Milestones
@@ -76,7 +78,7 @@ answers, the smoother the rest of the project will go.
 2. **Set up your repo** by following [Getting Started](../README.md#-getting-started-fp1) in
    the README. This includes creating your repo from the template, creating `develop`,
    turning on GitHub Pages, and adding your live site to the repo's **About** section.
-3. **Fill in `planning/PROPOSAL.md`.** Answer each prompt under its heading:
+3. **Fill in `planning/README.md`.** Answer each prompt under its heading:
    - **Site Topic & Purpose:** What is your site about, and why does it exist? What do you
      want visitors to do or learn? A clear purpose guides your content, tone, and design.
      For example, a photography business site showcases a portfolio so potential clients
@@ -99,7 +101,7 @@ answers, the smoother the rest of the project will go.
 - [ ] Your repo was created from the template and is **Public**
 - [ ] Your live GitHub Pages site loads from the `develop` branch
 - [ ] Your live site link shows in the repo's **About** section
-- [ ] Every section of `planning/PROPOSAL.md` is filled in with specific answers
+- [ ] Every section of `planning/README.md` is filled in with specific answers
 - [ ] Your topic is a brand-new site, not your earlier personal homepage
 
 #### 🧮 Grading
@@ -128,7 +130,7 @@ later guessing about layout while you're coding.
 
 #### What to Do
 
-1. Use the [wireframe template](../planning/wireframes/wireframe-template.pdf). The [wireframes folder](../planning/wireframes/) has download and drawing tips, plus the examples below.
+1. Use the [wireframe template](../planning/wireframe-template.pdf). The [wireframes guide](../planning/WIREFRAMES.md) has download and drawing tips, plus the examples below.
 2. Draw a **desktop** and a **phone** wireframe for your pages. Each wireframe should:
    - Clearly show the box structure: header, navigation, main content, footer, and any
      sections or `div`s
@@ -146,7 +148,7 @@ later guessing about layout while you're coding.
      or another PDF app.
    - **Digitally:** open the template in Adobe Illustrator, Figma (free with your UC email),
      or draw.io. Use the rectangle and text tools, then export to PDF.
-4. Save your PDF in `planning/wireframes/` with a lowercase name, like `wireframes.pdf`.
+4. Save your PDF in `planning/` as `wireframes.pdf`.
 
 If someone else could build your site just by looking at your wireframes, you've done this
 right.
@@ -163,7 +165,7 @@ images, labeled sections, and a visible navigation bar.
 - [ ] Your wireframes cover desktop and phone
 - [ ] Every element is labeled, and the navigation links are listed
 - [ ] Someone unfamiliar with your project could tell where each element goes
-- [ ] The PDF is in `planning/wireframes/` and opens on GitHub
+- [ ] `planning/wireframes.pdf` is in the repo and opens on GitHub
 
 #### 🧮 Grading
 
@@ -173,7 +175,7 @@ images, labeled sections, and a visible navigation bar.
 | **Content Placement** | Text and image areas are clearly marked, and the site name or logo is placed. | 2 |
 | **Navigation** | The navigation bar's position and links are shown and match the layout in your proposal. | 2 |
 | **Labels & Craftsmanship** | The wireframes are neat, legible, and labeled well enough to hand to another person to build from. | 2 |
-| **Submission** | The PDF is in `planning/wireframes/`, and the FP2 pull request has its template filled in. | 1 |
+| **Submission** | Your PDF is at `planning/wireframes.pdf`, and the FP2 pull request has its template filled in. | 1 |
 | | **Total** | **10** |
 
 </details>
@@ -403,7 +405,7 @@ one broken link or a few images missing `alt` text.
 ## 📚 Resources
 
 - Textbook pages 455–460 (read before FP1)
-- [Wireframe template](../planning/wireframes/wireframe-template.pdf) and [examples](../planning/wireframes/README.md)
+- [Wireframe template](../planning/wireframe-template.pdf) and [examples](../planning/WIREFRAMES.md)
 - The PDF handout packet: page layout templates and navigation bar recipes for the three
   most common layouts
 - [Adobe Scan](https://www.adobe.com/acrobat/mobile/scanner-app.html) for turning

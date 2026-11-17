@@ -44,8 +44,9 @@ about.html                  ← your other pages (use your own page names)
 css/reset.css
 css/style.css
 images/
-planning/PROPOSAL.md        ← FP1: fill in your proposal here
-planning/wireframes/        ← FP2: put your wireframe PDF or images here
+planning/README.md          ← FP1: fill in your proposal here
+planning/WIREFRAMES.md      ← FP2: wireframe tips, template link, and examples
+planning/wireframes.pdf     ← FP2: your wireframe PDF
 planning/CONTENT.md         ← FP3: your written content and image list
 ```
 
@@ -107,7 +108,7 @@ You only do this once, at the start of the project.
    - On your repo's main page on GitHub, click the ⚙️ gear next to **About** (top right).
    - Check **Use your GitHub Pages website**, then click **Save changes**.
    - Your live site link now shows at the top of your repo, so anyone can find it.
-6. Open `planning/PROPOSAL.md` in WebStorm and start on your proposal.
+6. Open `planning/README.md` in WebStorm and start on your proposal.
 
 ## 🤖 AI Policy
 
