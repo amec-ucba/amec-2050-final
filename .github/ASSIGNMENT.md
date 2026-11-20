@@ -1,7 +1,6 @@
 # 🌐 Final Project
 
 **Course:** AMEC 2050 — Web Design I
-**Due:** Five milestones, from Week 7 to the end of the semester. Due dates are in Canvas.
 **Points:** 250 total (70 for milestones, 180 for the finished site)
 
 ## 🎯 Overview
@@ -406,7 +405,8 @@ one broken link or a few images missing `alt` text.
 
 ## 🆘 Getting Help
 
-<!-- TODO: office hours, discussion board, tutoring center, etc. -->
+Ask during class or office hours, or post on the Canvas discussion board. For feedback on your site, read the
+review on each milestone's pull request.
 
 ---
 
