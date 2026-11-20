@@ -1,6 +1,6 @@
 # 📐 Wireframes
 
-Save your **FP2: Wireframes** PDF in this `planning/` folder as `wireframes.pdf`. The full
+Save your **FP1: Proposal & Wireframes** wireframe PDF in this `planning/` folder as `wireframes.pdf`. The full
 instructions and grading are in [ASSIGNMENT.md](../.github/ASSIGNMENT.md).
 
 ## 📄 Wireframe Template

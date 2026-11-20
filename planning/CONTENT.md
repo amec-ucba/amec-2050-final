@@ -1,9 +1,9 @@
 # ✍️ Site Content Plan
 
 > Fill in this file for **FP3: Content & Images**. Write the real text for every page
-> here, before you code it, and list every image your site will use. You'll copy this
-> content into your HTML pages in FP4. The full instructions and grading are in
-> [ASSIGNMENT.md](../ASSIGNMENT.md).
+> here first, and list every image your site will use. Then add the
+> content to your HTML pages, in this same milestone. The full instructions and grading are in
+> [ASSIGNMENT.md](../.github/ASSIGNMENT.md).
 
 ## 🗺️ Page List
 
@@ -58,8 +58,7 @@ Your text.
 
 ## 🖼️ Image List
 
-Put your images in the `images/` folder. Use lowercase file names with no spaces, and
-resize and compress each image before you add it. Write `alt` text that describes what the
+Put your images in the `images/` folder. Use lowercase file names with no spaces. Write `alt` text that describes what the
 image shows, as if you were telling someone who can't see it.
 
 Copy the block below once for each image. The first one is an example; replace it.

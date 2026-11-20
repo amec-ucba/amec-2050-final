@@ -1,14 +1,13 @@
 ## 🏁 Milestone
 
 <!-- Check the ONE milestone this pull request submits by changing [ ] to [x]. -->
-<!-- The pull request title should match it, like FP2: Wireframes. -->
+<!-- The pull request title should match it, like FP2: Layout. -->
 
-- [ ] FP1: Proposal & Repo Setup
-- [ ] FP2: Wireframes
+- [ ] FP1: Proposal & Wireframes
+- [ ] FP2: Layout
 - [ ] FP3: Content & Images
-- [ ] FP4: Basic Framework
-- [ ] FP5: Rough Draft
-- [ ] Final Project
+- [ ] FP4: Rough Draft
+- [ ] FP5: Final Project
 
 ## 🔗 Live GitHub Pages URL
 

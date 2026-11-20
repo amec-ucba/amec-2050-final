@@ -1,14 +1,14 @@
 # 🌐 Final Project
 
 **Course:** AMEC 2050 — Web Design I
-**Due:** Six milestones over the last weeks of the semester. Due dates are in Canvas.
+**Due:** Five milestones, from Week 7 to the end of the semester. Due dates are in Canvas.
 **Points:** 250 total (70 for milestones, 180 for the finished site)
 
 ## 🎯 Overview
 
 You'll plan, design, and build a brand-new website of at least four pages on a topic you
-choose. The project is broken into six milestones: you propose a topic and audience, sketch
-wireframes, write your content, build the page framework, submit a rough draft for
+choose. The project is broken into five milestones: you propose a topic and audience and sketch
+wireframes, build the layout, add your real content and images, submit a rough draft for
 feedback, and then turn in the finished site. Everything happens in this one repo, and each
 milestone is submitted as its own pull request.
 
@@ -20,13 +20,14 @@ and creativity rather than something overly complex.
 Your finished site must:
 
 - [ ] Have at least **four pages**: a homepage (`index.html`) plus three or more other pages
-- [ ] Be a **brand-new site**, not an update of your earlier personal homepage or a modified
-      version of a class exercise (like Vent Haven or the Flower Page)
+- [ ] Be a **brand-new site**, not a modified version of a class exercise (like the Ocarina of
+      Time Guide or Graeter's Scoop Shop)
 - [ ] Have a clearly defined **topic, purpose, and target audience**, as described in your
       proposal
-- [ ] Use **HTML** for structure and **one shared external CSS file** (plus `reset.css`) for
-      all styling and layout
+- [ ] Use **HTML** for structure and **one shared stylesheet**, `css/style.css`, for all
+      styling and layout
 - [ ] Have a **consistent, visually cohesive design** and the same navigation on every page
+- [ ] Work on a **phone and a desktop**, built mobile-first, with no sideways scrolling
 - [ ] Be **live on GitHub Pages** from your `develop` branch
 
 ## 📂 Repo Layout
@@ -35,13 +36,12 @@ Your finished site must:
 | --- | --- |
 | `index.html` | Your homepage. Must be in the root folder and named exactly `index.html`. |
 | `*.html` | Your other pages, in the root folder, lowercase with no spaces |
-| `css/reset.css` | A copy of the reset stylesheet (don't edit it) |
 | `css/style.css` | Your one shared stylesheet for every page |
-| `images/` | Every image your site uses, resized for the web |
+| `images/` | Every image your site uses |
 | [`planning/README.md`](../planning/README.md) | Your proposal (FP1) |
-| [`planning/WIREFRAMES.md`](../planning/WIREFRAMES.md) | Wireframe tips and examples (FP2) |
-| [`planning/wireframe-template.pdf`](../planning/wireframe-template.pdf) | The blank wireframe template (FP2) |
-| `planning/wireframes.pdf` | Your wireframes (FP2) |
+| [`planning/WIREFRAMES.md`](../planning/WIREFRAMES.md) | Wireframe tips and examples (FP1) |
+| [`planning/wireframe-template.pdf`](../planning/wireframe-template.pdf) | The blank wireframe template (FP1) |
+| `planning/wireframes.pdf` | Your wireframes (FP1) |
 | `planning/CONTENT.md` | Your page titles, written content, and image list (FP3) |
 
 ## 🗓️ Milestones
@@ -53,24 +53,25 @@ request URL in Canvas. Your instructor merges it after grading. The steps are in
 
 | # | Milestone | Points |
 | --- | --- | --- |
-| FP1 | Proposal & Repo Setup | 10 |
-| FP2 | Wireframes | 10 |
+| FP1 | Proposal & Wireframes | 20 |
+| FP2 | Layout | 20 |
 | FP3 | Content & Images | 10 |
-| FP4 | Basic Framework | 20 |
-| FP5 | Rough Draft | 20 |
-| ⭐ | Final Project | 180 |
+| FP4 | Rough Draft | 20 |
+| FP5 | Final Project | 180 |
 | | **Total** | **250** |
 
 Click a milestone below to open it. Focus on one at a time.
 
 <details>
-<summary><strong>FP1: Proposal & Repo Setup (10 points)</strong></summary>
+<summary><strong>FP1: Proposal & Wireframes (20 points)</strong></summary>
 
-**Pull request title:** `FP1: Proposal & Repo Setup`
+**Pull request title:** `FP1: Proposal & Wireframes`
 
-Your proposal is the first step in your final project. It defines your topic, audience, and
-design direction before you start your wireframes. The more specific and thoughtful your
-answers, the smoother the rest of the project will go.
+Your proposal and wireframes are the plan for everything that follows. The proposal defines
+your topic, audience, and goals. The wireframes turn that plan into a blueprint for each
+page. A builder wouldn't pour concrete without blueprints, and you shouldn't start coding
+without wireframes. The more specific and thoughtful your plan, the smoother the rest of the
+project will go.
 
 #### What to Do
 
@@ -90,65 +91,32 @@ answers, the smoother the rest of the project will go.
      - ✅ Good: *View my photography portfolio*, *Read about pricing and packages*,
        *Contact me for booking*
      - ❌ Too vague: *Learn about me*, *See pictures*, *Click around*
-   - **Page Layout:** Choose one of the three common layouts: header with the navigation
-     bar **below** it, header with the navigation bar **inside** it, or a **left-side**
-     navigation bar. Familiar layouts help visitors understand your site right away.
+   - **Page Layout:** Choose where your navigation goes on wider screens: **below** the
+     header, **inside** the header, or down the **left side**. Familiar layouts help
+     visitors understand your site right away.
    - **A Site You Like:** Share the URL of a website you like and explain what you like
      about it (layout, colors, navigation, tone, etc.).
-
-#### ✅ Before You Submit
-
-- [ ] Your repo was created from the template and is **Public**
-- [ ] Your live GitHub Pages site loads from the `develop` branch
-- [ ] Your live site link shows in the repo's **About** section
-- [ ] Every section of `planning/README.md` is filled in with specific answers
-- [ ] Your topic is a brand-new site, not your earlier personal homepage
-
-#### 🧮 Grading
-
-| Criteria | Full credit looks like | Points |
-| --- | --- | --- |
-| **Topic & Purpose** | The topic is clear and the purpose explains what visitors should do or learn and why the site is useful. | 2 |
-| **Target Audience** | The audience is specific, with their interests, needs, and the tone that would appeal to them. | 2 |
-| **Audience Goals** | Three specific, audience-focused goals that could each be answered by a page or section of the site. | 3 |
-| **Page Layout** | One of the three layouts is chosen. | 1 |
-| **A Site You Like** | A working URL and a short explanation of what you like about the site. | 1 |
-| **Setup & Submission** | The repo is set up from the template, the Pages site is live from `develop` and linked in **About**, and the FP1 pull request has its template filled in. | 1 |
-| | **Total** | **10** |
-
-</details>
-
-<details>
-<summary><strong>FP2: Wireframes (10 points)</strong></summary>
-
-**Pull request title:** `FP2: Wireframes`
-
-Wireframes are the blueprint for your website. They plan the structure and flow of your
-pages before you write any code. A builder wouldn't pour concrete without blueprints, and
-you shouldn't start coding without wireframes. If you rush this step, you'll waste time
-later guessing about layout while you're coding.
-
-#### What to Do
-
-1. Use the [wireframe template](../planning/wireframe-template.pdf). The [wireframes guide](../planning/WIREFRAMES.md) has download and drawing tips, plus the examples below.
-2. Draw a **desktop** and a **phone** wireframe for your pages. Each wireframe should:
-   - Clearly show the box structure: header, navigation, main content, footer, and any
-     sections or `div`s
+4. **Draw your wireframes** on the [wireframe template](../planning/wireframe-template.pdf).
+   The [wireframes guide](../planning/WIREFRAMES.md) has download and drawing tips, plus the
+   examples below.
+   - Start with the **phone** layout, then draw the **desktop** layout, for your homepage
+     and at least one other page.
+   - Show the box structure: header, navigation, main content, sections, and footer.
+     **Label each box with the HTML element it will become**, like `header`, `nav`, `main`,
+     `section`, or `footer`.
    - Show where text goes (squiggly lines) and where images go (boxes with an X or an
-     "image" label)
-   - Include the site name or logo in its approximate position
-   - Show the navigation bar (below the header, inside it, or on the left side) and the
-     links it will contain
-   - Have intentional organization and proportions. The boxes don't have to be perfect,
+     "image" label).
+   - Include the site name or logo in its approximate position, and list the links in your
+     navigation.
+   - Keep the organization and proportions intentional. The boxes don't have to be perfect,
      but they should line up and the spacing should make sense.
-   - Label key elements so it's obvious what each section is
-3. Choose how to make them:
+5. **Choose how to make them:**
    - **By hand:** print the template, draw neatly with a dark pen or marker, then scan the
      pages into a PDF with [Adobe Scan](https://www.adobe.com/acrobat/mobile/scanner-app.html)
      or another PDF app.
    - **Digitally:** open the template in Adobe Illustrator, Figma (free with your UC email),
      or draw.io. Use the rectangle and text tools, then export to PDF.
-4. Save your PDF in `planning/` as `wireframes.pdf`.
+6. **Save your PDF** in `planning/` as `wireframes.pdf`.
 
 If someone else could build your site just by looking at your wireframes, you've done this
 right.
@@ -162,21 +130,88 @@ images, labeled sections, and a visible navigation bar.
 
 #### ✅ Before You Submit
 
-- [ ] Your wireframes cover desktop and phone
-- [ ] Every element is labeled, and the navigation links are listed
-- [ ] Someone unfamiliar with your project could tell where each element goes
+- [ ] Your repo was created from the template and is **Public**
+- [ ] Your live GitHub Pages site loads from the `develop` branch
+- [ ] Your live site link shows in the repo's **About** section
+- [ ] Every section of `planning/README.md` is filled in with specific answers
+- [ ] Your topic is a brand-new site, not a modified class exercise
+- [ ] Your wireframes cover phone and desktop, every box is labeled with its HTML element,
+      and the navigation links are listed
 - [ ] `planning/wireframes.pdf` is in the repo and opens on GitHub
 
 #### 🧮 Grading
 
 | Criteria | Full credit looks like | Points |
 | --- | --- | --- |
-| **Page Structure** | The header, navigation, main content, sections, and footer are clearly laid out with intentional proportions. | 3 |
+| **Topic & Purpose** | The topic is clear and the purpose explains what visitors should do or learn and why the site is useful. | 2 |
+| **Target Audience** | The audience is specific, with their interests, needs, and the tone that would appeal to them. | 2 |
+| **Audience Goals** | Three specific, audience-focused goals that could each be answered by a page or section of the site. | 3 |
+| **Page Layout & A Site You Like** | One navigation layout is chosen, and a working URL comes with a short explanation of what you like about the site. | 1 |
+| **Wireframe Structure** | Phone and desktop layouts show the header, navigation, main content, sections, and footer with intentional proportions, and each box is labeled with its HTML element. | 5 |
 | **Content Placement** | Text and image areas are clearly marked, and the site name or logo is placed. | 2 |
-| **Navigation** | The navigation bar's position and links are shown and match the layout in your proposal. | 2 |
-| **Labels & Craftsmanship** | The wireframes are neat, legible, and labeled well enough to hand to another person to build from. | 2 |
-| **Submission** | Your PDF is at `planning/wireframes.pdf`, and the FP2 pull request has its template filled in. | 1 |
-| | **Total** | **10** |
+| **Navigation** | The navigation's position and links are shown and match the layout in your proposal. | 2 |
+| **Craftsmanship** | The wireframes are neat and legible enough to hand to another person to build from. | 1 |
+| **Setup & Submission** | The repo is set up from the template, the Pages site is live from `develop` and linked in **About**, the PDF is at `planning/wireframes.pdf`, and the FP1 pull request has its template filled in. | 2 |
+| | **Total** | **20** |
+
+</details>
+
+<details>
+<summary><strong>FP2: Layout (20 points)</strong></summary>
+
+**Pull request title:** `FP2: Layout`
+
+Now you turn your wireframes into real web pages. Nothing needs to be final yet. The goal
+is to build every page's structure and get your mobile-first layout working with CSS.
+Placeholder text is fine for now. Your real content goes in during FP3.
+
+#### What to Do
+
+1. **Create every page for your site** in the root folder, following your wireframes.
+   - Your homepage must be named `index.html`.
+   - All file names are lowercase with no spaces (use `-` if needed).
+   - Each page has a complete `head`: `<!DOCTYPE html>`, `html` with `lang`, `meta charset`,
+     the viewport `meta` tag, a unique `title`, and a `meta` description.
+   - Each page has its layout elements: `header`, `nav`, `main`, `footer`, and the
+     `section`s from your wireframes.
+   - Each page has its headings, and placeholder text or images where the real content
+     will go.
+2. **Link one shared stylesheet.** Create `css/style.css` and link it in every page.
+3. **Build the layout mobile-first.**
+   - Your base CSS is the phone layout from your wireframes.
+   - Use Flexbox or Grid to arrange the page.
+   - Add at least one `@media (min-width: …)` breakpoint that rearranges the page into your
+     desktop layout.
+   - Code your navigation bar so it works on every page, on a phone and on a desktop.
+   - Add some visual styling: background colors, borders, spacing, etc. Colors and fonts
+     don't need to be final yet.
+
+> 💡 **Tip:**
+> Once your homepage works, the other pages are much easier. Copy its HTML to each new
+> page. The `header`, `nav`, and `footer` stay the same; only what's inside `main`
+> changes. Keep your file paths consistent so images and stylesheets work on every page.
+
+#### ✅ Before You Submit
+
+- [ ] Your homepage is named `index.html`
+- [ ] Every page has a complete `head`, including the viewport tag, a `title`, and a
+      description
+- [ ] Every page has its layout elements and headings
+- [ ] Your navigation bar links to every page and works from every page
+- [ ] The layout matches your phone wireframe on a phone and your desktop wireframe on a
+      wide screen, with no sideways scrolling
+- [ ] `style.css` loads on the live site
+
+#### 🧮 Grading
+
+| Criteria | Full credit looks like | Points |
+| --- | --- | --- |
+| **Files** | Every HTML page and `css/style.css` exist. The homepage is `index.html`, and file and folder names are lowercase with no spaces or special characters. | 3 |
+| **HTML Structure** | Every page has a complete `head` (including the viewport tag, a unique `title`, and a description), its layout elements (`header`, `nav`, `main`, `footer`), and its headings. | 5 |
+| **Layout** | The base CSS is the phone layout, Flexbox or Grid puts every section in its place, and at least one `min-width` breakpoint rearranges the page to match the desktop wireframe. | 6 |
+| **Navigation** | The navigation bar is fully coded, links to every page, and works on a phone and a desktop. | 3 |
+| **Submission** | Every page, the stylesheet, and all folders are pushed to `develop` and show in the FP2 pull request, and the pull request has its template filled in. | 3 |
+| | **Total** | **20** |
 
 </details>
 
@@ -185,106 +220,56 @@ images, labeled sections, and a visible navigation bar.
 
 **Pull request title:** `FP3: Content & Images`
 
-Before you code, gather the real content for your site. Writing your text and preparing
-your images now means your rough draft won't be full of placeholder text, and your pages
-will be built around real content instead of guesses.
+Time to replace the placeholders. Add your real text and images to every page, so your
+rough draft is built around real content instead of guesses.
 
 #### What to Do
 
-1. **Plan your pages in `planning/CONTENT.md`.** For each page (at least four), list:
-   - The file name, like `index.html` or `services.html` (lowercase, no spaces)
-   - The page's `<title>`. The homepage title is the name of your site, not "Home".
-   - The page's headings and subheadings
-   - The real written content: paragraphs, lists, and any other text. Proofread it.
-2. **Prepare your images.**
-   - Collect the images your site will use and put them in `images/`.
-   - Use lowercase file names with no spaces, like `team-photo.jpg`.
-   - Resize and compress large images before you add them. Photos straight from a phone or
-     camera are much too big for a web page and slow it down.
-3. **List your images in `planning/CONTENT.md`.** For each image, give the file name, the
-   page it goes on, its `alt` text, and where it came from (your own photo, or the site you
-   got it from).
+1. **Write your content in `planning/CONTENT.md`.** For each page, list its file name, its
+   `title`, its headings, and the real written content: paragraphs, lists, and any other
+   text. Proofread it.
+2. **Add the content to your pages.** Replace every placeholder with your real text, marked
+   up by meaning: headings, paragraphs, lists, and so on.
+3. **Add your images.**
+   - Put every image in `images/`, with lowercase file names and no spaces, like
+     `team-photo.webp`.
+   - If you can, pick images that aren't huge. A full-size photo from a phone can make a page
+     slow to load. This isn't graded.
+   - Give every `img` a `width`, a `height`, and meaningful `alt` text, or `alt=""` if it's
+     only decoration.
+4. **List your images in `planning/CONTENT.md`.** For each image, give the file name, the
+   page it goes on, its `alt` text, and where it came from, with its license or credit if
+   it isn't your own photo.
 
 #### ✅ Before You Submit
 
-- [ ] Every page has a file name, title, headings, and real text in `CONTENT.md`
-- [ ] The text is proofread for spelling and grammar
-- [ ] Your images are in `images/`, resized, with lowercase names and no spaces
-- [ ] Every image is listed with its page, `alt` text, and source
+- [ ] Every page has real, proofread text. No placeholder text is left.
+- [ ] Every page's `title` and description describe its real content
+- [ ] Your images are in `images/`, with lowercase names and no spaces
+- [ ] Every `img` has a `width`, a `height`, and the right `alt` text
+- [ ] Every image is listed in `CONTENT.md` with its page, `alt` text, and source
 
 #### 🧮 Grading
 
 | Criteria | Full credit looks like | Points |
 | --- | --- | --- |
-| **Pages & Titles** | At least four pages are planned, each with a file name and a unique, descriptive title. The homepage title is the site's name. | 2 |
-| **Written Content** | Each page has real, proofread text organized under headings, and it serves the audience goals in your proposal. | 4 |
-| **Images** | The images are in `images/`, relate to the content, are resized for the web, and use proper file names. | 2 |
-| **Alt Text & Sources** | Every image has meaningful `alt` text and a listed source. | 1 |
+| **Written Content** | Every page has real, proofread text organized under headings, and it serves the audience goals in your proposal. | 4 |
+| **Images** | The images are in `images/`, relate to the content, use proper file names, and have `width`, `height`, and the right `alt` text. | 3 |
+| **Sources** | Every image is listed in `CONTENT.md` with its page and source, and images that aren't yours are credited. | 2 |
 | **Submission** | The FP3 pull request has its template filled in. | 1 |
 | | **Total** | **10** |
 
 </details>
 
 <details>
-<summary><strong>FP4: Basic Framework (20 points)</strong></summary>
+<summary><strong>FP4: Rough Draft (20 points)</strong></summary>
 
-**Pull request title:** `FP4: Basic Framework`
-
-Now you start turning your plan into real web pages. Everything doesn't need to be designed
-yet. The goal is to build the basic structure for every page and get your page layout
-working with CSS.
-
-#### What to Do
-
-1. **Create every page for your site** in the root folder.
-   - Your homepage must be named `index.html`.
-   - All file names are lowercase with no spaces (use `-` if needed).
-   - Each page has a complete HTML structure: `<!DOCTYPE html>`, `<html>`, `<head>`,
-     `<body>`, and so on.
-   - Each page has its layout elements: `<header>`, `<nav>`, `<main>`, `<footer>`, etc.
-   - The page layout templates in your PDF handout packet are a good starting point.
-2. **Add your content** from `planning/CONTENT.md`, and some of your images, so you can
-   see how the layout fits.
-3. **Make progress with CSS.**
-   - Link `css/reset.css` and then `css/style.css` in every page.
-   - Get your page layout working (flex or grid, margins, padding).
-   - Code your navigation bar so it works on every page.
-   - Add some visual styling: background colors, borders, spacing, etc. Colors and fonts
-     don't need to be final yet.
-
-> 💡 **Tip:**
-> Once your homepage works, the other pages are much easier. Copy its HTML to each new
-> page. The `<header>`, `<nav>`, and `<footer>` stay the same; only what's inside `<main>`
-> changes. Keep your file paths consistent so images and stylesheets work on every page.
-
-#### ✅ Before You Submit
-
-- [ ] Your homepage is named `index.html`
-- [ ] Every page has the basic HTML structure and layout elements
-- [ ] Your navigation bar links to every page and works from every page
-- [ ] `reset.css`, `style.css`, and your images load on the live site
-- [ ] Your files and folders are organized and properly named
-
-#### 🧮 Grading
-
-| Criteria | Full credit looks like | Points |
-| --- | --- | --- |
-| **Files** | Every HTML page and the CSS files are created. The homepage is `index.html`, and file and folder names are lowercase with no spaces or special characters. | 5 |
-| **HTML Structure** | Every page has the basic structure (doctype, `head`, `body`), the page layout elements (`header`, `nav`, `main`, `footer`), and most of its written content. | 5 |
-| **CSS Progress** | The page layout puts everything in its final location (grid or flex), the navigation bar is fully coded, and some visual styles are applied. | 5 |
-| **Submission** | Every required file is pushed to `develop` and shows in the FP4 pull request, including `reset.css`, `style.css`, every page, every image, and all folders, and the pull request has its template filled in. | 5 |
-| | **Total** | **20** |
-
-</details>
-
-<details>
-<summary><strong>FP5: Rough Draft (20 points)</strong></summary>
-
-**Pull request title:** `FP5: Rough Draft`
+**Pull request title:** `FP4: Rough Draft`
 
 Your site should be well underway by now. The rough draft is a checkpoint. It doesn't have
 to be perfect, but it should be close enough that you can use the feedback to polish
-everything before the final version.
+everything before the final version. Classmates will also test it in the Rough Draft Peer
+Review discussion.
 
 #### What to Do
 
@@ -292,8 +277,9 @@ Your rough draft should have:
 
 - At least four HTML pages with working navigation links
 - Real content (headings, paragraphs, images), not placeholder text
-- A CSS layout using grid or flex
+- A mobile-first layout that works on a phone and a desktop
 - Styling with colors, fonts, and backgrounds mostly in place
+- A favicon on every page, added with a `link rel="icon"` element
 - Every link working and every page loading on the live site
 
 > 💡 **Tip:**
@@ -303,39 +289,44 @@ Your rough draft should have:
 #### 🚫 Common Issues to Avoid
 
 - Broken links or images that don't show up (check your file paths)
-- Images without an `alt` attribute, or with an empty one
+- Images without an `alt` attribute
 - Missing or incomplete pages. You need at least four.
-- Placeholder content everywhere
+- Placeholder content left on a page
 - A homepage that isn't named `index.html`
-- A missing copy of `reset.css` in your repo
+- Links or buttons you can't reach with the <kbd>Tab</kbd> key, or can't see focus on
+- A page that scrolls sideways on a phone
 
 #### ✅ Before You Submit
 
-- [ ] All four or more pages exist and are linked in the navigation
-- [ ] Your content is real, not placeholder text
-- [ ] Your layout and most of your styling are in place
-- [ ] Every link and image works on the live site
+Your classmates will use this same checklist in the peer review.
+
+- [ ] Do all links work?
+- [ ] Can you reach every link and button with <kbd>Tab</kbd>, and see where focus is?
+- [ ] Does every page fit at phone width without sideways scrolling?
+- [ ] Do images have `alt` text?
+- [ ] Does every page have a `title`, a `meta` description, and a favicon?
 
 #### 🧮 Grading
 
 | Criteria | Full credit looks like | Points |
 | --- | --- | --- |
-| **Pages & Navigation** | At least four pages exist, and the navigation works from every page. | 5 |
-| **Content** | Pages have real text and final images, not placeholder content. | 5 |
-| **Layout** | The page layout is fully established with grid or flex. | 5 |
+| **Pages & Navigation** | At least four pages exist, and the navigation works from every page. | 4 |
+| **Content** | Pages have real text and final images, not placeholder content. | 4 |
+| **Layout** | The mobile-first layout is fully established and works from a phone to a wide desktop. | 5 |
 | **Styling** | Colors, fonts, and spacing are mostly done; only small fixes and final touches are left. | 3 |
-| **Testing & Submission** | Links and images work on the live site, and the FP5 pull request has its template filled in. | 2 |
+| **Checklist** | Every item on the checklist above passes: links, keyboard focus, phone width, `alt` text, and each page's `title`, description, and favicon. | 2 |
+| **Testing & Submission** | Links and images work on the live site, and the FP4 pull request has its template filled in. | 2 |
 | | **Total** | **20** |
 
 </details>
 
 <details>
-<summary><strong>⭐ Final Project (180 points)</strong></summary>
+<summary><strong>FP5: Final Project (180 points)</strong></summary>
 
-**Pull request title:** `Final Project`
+**Pull request title:** `FP5: Final Project`
 
-Your final submission brings together everything from your proposal, wireframes, content,
-framework, and rough draft. Now it's time to show off a complete, polished website that
+Your final submission brings together everything from your proposal and wireframes, layout,
+content, and rough draft. Now it's time to show off a complete, polished website that
 uses everything you've learned this semester.
 
 #### What to Do
@@ -359,7 +350,8 @@ uses everything you've learned this semester.
 - **No spacing with HTML:** use CSS margins and padding, not repeated `<br>` tags.
 - **Clear navigation:** visitors can reach every section of your site from any page.
 - **Proofread:** check spelling and grammar on every page.
-- **Image sizes:** resize and compress images so pages load quickly.
+- **Image sizes:** when you have a choice, use a smaller version of an image so pages load
+  quickly. This isn't graded.
 - **Meaningful class names:** use names like `.header-nav` or `.footer-links`, not
   `.style1` or `.main`.
 - **Limited fonts and colors:** too many fonts or clashing colors look cluttered.
@@ -369,13 +361,14 @@ uses everything you've learned this semester.
 
 - [ ] Your homepage is named `index.html` and is in the root folder
 - [ ] Every page has a unique, descriptive `<title>`, and the homepage title is the site's name
-- [ ] Every page links `css/reset.css` and then `css/style.css`, and has no internal styles
+- [ ] Every page links `css/style.css`, and has no internal or inline styles
+- [ ] Every page has a `meta` description and a favicon
 - [ ] The navigation bar is the same on every page and every link works
-- [ ] Every image loads, has `alt` text, and has been resized for the web
+- [ ] Every image loads and has `alt` text
 - [ ] Spacing is done with CSS margins and padding, not `<br>` tags
 - [ ] Class and ID names describe what they're for
 - [ ] You've proofread every page for spelling and grammar
-- [ ] You've checked the live site on a computer **and** a phone
+- [ ] You've checked the live site on a computer **and** a phone, with no sideways scrolling
 - [ ] Everything is committed and pushed to `develop` before you open your final pull request
 
 #### 🧮 Grading Rubric
@@ -384,13 +377,13 @@ uses everything you've learned this semester.
 | --- | --- | --- |
 | **Web Standards** | Page layout uses HTML5 semantic elements (`header`, `nav`, `main`, `article`, `section`, `footer`), with a `div` only when one is needed. Spacing comes from CSS margins and padding, not repeated `<br>` tags. | 20 |
 | **Semantic Markup** | Markup describes the content inside it. There are no presentational tags or outdated attributes like `align="right"`, and no extra `div`s or `section`s. The code is your own, not a modified class exercise or a copied template. | 20 |
-| **CSS** | Every page links the same external stylesheet, plus `reset.css`. There are no internal or inline styles. Class and ID names describe their purpose and are only added where needed. The CSS is your own. | 20 |
+| **CSS** | Every page links the same external stylesheet. There are no internal or inline styles. The layout is mobile-first and works from a phone to a wide desktop. Class and ID names describe their purpose and are only added where needed. The CSS is your own. | 20 |
 | **Links** | Every link works. Link text says where the link goes (no "click here" or bare URLs). Links are styled to match the site's color scheme and only open new tabs when that makes sense. | 20 |
-| **Images** | Every image loads and has `src` and a meaningful `alt`. Images are sized and compressed for the web, relate to the content, and are integrated with the text. Background images are used where appropriate. | 20 |
-| **Page Titles** | Every page has a unique `<title>` that describes its content. The homepage title is the name of the site, not "Home" or "Index". | 20 |
+| **Images** | Every image loads and has `src` and a meaningful `alt`. Images relate to the content, and are integrated with the text. Background images are used where appropriate. | 20 |
+| **Page Titles** | Every page has a unique `<title>` and a `meta` description that describe its content, and a favicon. The homepage title is the name of the site, not "Home" or "Index". | 20 |
 | **Focus & Purpose** | The site has a clear purpose, theme, or main idea that matches your proposal. It could work outside the context of this class. | 10 |
 | **Home Page** | The homepage is visually attractive, clearly explains the site's purpose, and orients visitors. | 10 |
-| **Navigation** | Every page has the same horizontal or vertical navigation bar, in the same order, including a link back to the homepage. Links are easy to understand and have a hover state. | 10 |
+| **Navigation** | Every page has the same navigation bar, in the same order, including a link back to the homepage. It works on a phone and a desktop. Links are easy to understand and have hover and focus states. | 10 |
 | **Writing** | Writing is clear and interesting, with correct grammar and spelling. Headings, subheads, and lists make the content easy to scan. | 10 |
 | **Readability** | Text is easy to read: font, size, and line height are styled, contrast is strong, and backgrounds don't compete with the text. | 10 |
 | **Information** | Each page has enough content to justify itself without overwhelming visitors. Headings stand out from body text and break content into chunks. | 10 |

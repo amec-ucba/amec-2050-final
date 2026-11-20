@@ -1,8 +1,8 @@
 # 📝 Final Project Proposal
 
-> Fill in this file for **FP1: Proposal & Repo Setup**. Replace each *Your answer* line
+> Fill in this file for **FP1: Proposal & Wireframes**. Replace each *Your answer* line
 > with your own writing, and keep the headings. Read pages 455–460 of your textbook first.
-> The full instructions and grading are in [ASSIGNMENT.md](../ASSIGNMENT.md).
+> The full instructions and grading are in [ASSIGNMENT.md](../.github/ASSIGNMENT.md).
 
 **Site name:** The working name of your website
 

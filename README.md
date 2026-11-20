@@ -41,12 +41,11 @@ Your planning documents and your website live side by side:
 ```
 index.html                  ← your homepage (must be in the root folder)
 about.html                  ← your other pages (use your own page names)
-css/reset.css
 css/style.css
 images/
 planning/README.md          ← FP1: fill in your proposal here
-planning/WIREFRAMES.md      ← FP2: wireframe tips, template link, and examples
-planning/wireframes.pdf     ← FP2: your wireframe PDF
+planning/WIREFRAMES.md      ← FP1: wireframe tips, template link, and examples
+planning/wireframes.pdf     ← FP1: your wireframe PDF
 planning/CONTENT.md         ← FP3: your written content and image list
 ```
 
@@ -167,7 +166,7 @@ You set this up once in FP1. After that, every push to `develop` updates your li
 
    <img src=".github/images/pages-site-live.png" alt="The Your site is live at banner with the site URL highlighted" width="600">
 
-   Until you add an `index.html` (FP4), the live site shows this README instead of a
+   Until you add an `index.html` (FP2), the live site shows this README instead of a
    homepage. That's expected.
 
 **🛠️ Troubleshooting**
@@ -192,7 +191,7 @@ into `main`, and submit that pull request's URL in Canvas.
 
      <img src=".github/images/webstorm-create-pr-menu.png" alt="The Git menu with the GitHub submenu open and Create Pull Request highlighted" width="450">
    - At the top of the form, confirm it says `main` ← `develop`. If not, click each branch
-     name to change it. Title it with the milestone name, like `FP2: Wireframes`.
+     name to change it. Title it with the milestone name, like `FP2: Layout`.
 
      <img src=".github/images/webstorm-pr-branches-title.png" alt="The new pull request form with main ← develop and the title field highlighted" width="400">
    - The description is pre-filled with a template. Fill in every section: check the
